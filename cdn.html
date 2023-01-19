@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+
+
+<title>Page Title</title>
+</head>
+<body>
+
+<div id="myDiv">
+</div>
+<script type="text/babel">
+
+  
+class Hello extends React.Component{
+    render(){
+        return <div>Hello react with code </div>
+    }
+}
+ReactDOM.render(<Hello/>,document.getElementById('myDiv'))
+</script>
+
+
+</body>
+</html>
